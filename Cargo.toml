@@ -1,0 +1,15 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/moss-sys",
+    "crates/moss",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2026"
+license = "MIT"
+repository = "https://github.com/TxbiG/MossRS"
+
+[workspace.dependencies]
+moss-sys = { path = "crates/moss-sys", version = "0.1.0" }
