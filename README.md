@@ -1,3 +1,4 @@
+[![Build](https://github.com/TxbiG/MossRS/actions/workflows/build.yml/badge.svg)](https://github.com/TxbiG/MossRS/actions/workflows/build.yml)
 # MossRS
 MossRS is a Rust binding layer for [MossFramework](https://github.com/TxbiG/Moss).
 
