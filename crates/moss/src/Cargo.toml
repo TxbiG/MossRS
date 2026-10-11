@@ -1,0 +1,26 @@
+[package]
+name = "moss"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+moss-sys.workspace = true
+
+[features]
+default = ["core"]
+core = []
+rendering = []
+gpu = ["rendering"]
+physics = []
+audio = []
+input = []
+networking = []
+navigation = []
+gui = []
+xr = []
+openxr = ["xr"]
+vulkan = ["gpu"]
+opengl = ["gpu"]
+dx12 = ["gpu"]
+metal = ["gpu"]
